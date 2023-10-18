@@ -1,29 +1,24 @@
-# desafio-backend-05-pdv
-![](https://i.imgur.com/xG74tOh.png)
+# API para um PDV (Frente de Caixa)
 
-# Desafio Módulo 5 - Backend
+## Contexto 
 
-Seja bem vindo(a) ao desafio do módulo 5.
+Desenvolvedor(a) terá a responsabilidade de criar uma API para um PDV (Frente de Caixa). Esse será um projeto piloto, ou seja, no futuro outras funcionalidades serão implementadas.
 
-Sua tarefa como desenvolvedor(a) será criar uma API para um PDV (Frente de Caixa). Esse será um projeto piloto, ou seja, no futuro outras funcionalidades serão implementadas.
+## Tecnologias
 
+<p align="left">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=js,express,nodejs,postgres,postman" />
+  </a>
+</p>
 
-**Importante 1: Sempre que a validação de uma requisição falhar, responda com código de erro e mensagem adequada à situação, ok?**
+## Start Projeto
 
-**Importante 2: Para endpoints de cadastro/atualização os objetos de requisição devem conter as propriedades equivalentes as colunas das tabelas.**
+Preencha a checklist para fazer run backend:
 
-**Exemplo:**
-
-```javascript
-// Corpo da requisição para cadastro de usuário (body)
-{
-    "nome": "José",
-    "email": "jose@email.com",
-    "senha": "jose"
-}
-```
-
-**ATENÇÃO: Todos os endpoints deverão atender os requisitos citados acima.**
+-   [ ] Executar `git clone` no terminal para clonar o repositório, ou clonar de outra maneira (preferência SSH).
+-   [ ] Dentro da pasta que foi clonado deve utilizar o seguinte comando `npm i` ou `npm install` para fazer o download das dependências.
+-   [ ] Após realizar o processo anterior `npm start` para inicializar o backend.
 
 ## **Banco de dados**
 
@@ -517,32 +512,3 @@ Critérios de aceite:
     "produto_imagem": "https://s3.us-east-005.backblazeb2.com/desafio-final.jpg"
 }
 ```
-
-</details>
-
-<details>
-<summary><b>Aprimorar exclusão de produto</b></summary>
-<br>
-
-Deverá ser aprimorada a exclusão de produto para que quando o produto for excluído também seja removida a imagem vinculada a ele na servidor de armazenamento.
-
-Critérios de aceite:
-
-    - Na exclusão do produto a imagem vinculada a este produto deverá ser excluída do servidor de armazenamento.
-    
-</details>
-
-</details>
-
-
-## Aulas úteis:
-
--   [Revisão](https://aulas.cubos.academy/turma/503b31f6-db13-4a79-8c3f-132b3d44e96f/aulas/9c29ca80-51cc-4f74-86a3-d27cee05fc48)
--   [Git e fluxo de trabalho em equipe](https://aulas.cubos.academy/turma/503b31f6-db13-4a79-8c3f-132b3d44e96f/aulas/2044890a-5d35-442a-85b1-f8481589a1a9)
--   [Deploy](https://aulas.cubos.academy/turma/503b31f6-db13-4a79-8c3f-132b3d44e96f/aulas/9be7d540-8f4d-4922-9e42-663656bd2475)
--   [Envio de e-mails](https://aulas.cubos.academy/turma/503b31f6-db13-4a79-8c3f-132b3d44e96f/aulas/9b85ed35-9833-444a-a424-80d6eeeeccbc)
--   [Validações e boas práticas](https://aulas.cubos.academy/turma/503b31f6-db13-4a79-8c3f-132b3d44e96f/aulas/61394330-479c-42de-ba1c-176f712990e5)
--   [Upload de arquivos](https://aulas.cubos.academy/turma/503b31f6-db13-4a79-8c3f-132b3d44e96f/aulas/f2821d48-b7b7-486a-8158-afacb145509f)
-
-
-###### tags: `back-end` `módulo 5` `nodeJS` `PostgreSQL` `API REST` `desafio`
